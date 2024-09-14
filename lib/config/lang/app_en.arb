@@ -1,0 +1,54 @@
+{
+    "connectionError": "Connection Error",
+    "noChoses": "There are no options",
+    "more":"More",
+    "jobId":"Job Id : {id}",
+    "@jobId": {
+        "description": "A message with a single parameter",
+        "placeholders": {
+            "id": {
+                "type": "String",
+                "example": "Bob"
+            }
+        }
+    },
+    "company":"Company : {id}",
+    "@company": {
+        "description": "A message with a single parameter",
+        "placeholders": {
+            "id": {
+                "type": "String",
+                "example": "Bob"
+            }
+        }
+    },
+    "salary":"Salary : {id}",
+    "@salary": {
+        "description": "A message with a single parameter",
+        "placeholders": {
+            "id": {
+                "type": "String",
+                "example": "Bob"
+            }
+        }
+    },
+    "location":"Location : {id}",
+    "@location": {
+        "description": "A message with a single parameter",
+        "placeholders": {
+            "id": {
+                "type": "String",
+                "example": "Bob"
+            }
+        }
+    },
+
+    "description":"Description",
+    "longDescription":"Long Description",
+    "showMore":"Show More",
+    "showLess":"Show Less"
+
+   
+
+
+}

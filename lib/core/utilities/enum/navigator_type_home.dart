@@ -1,0 +1,4 @@
+enum NavigatorTypeHome {
+  init,
+  jobPage,
+}

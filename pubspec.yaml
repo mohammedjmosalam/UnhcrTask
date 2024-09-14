@@ -1,0 +1,67 @@
+name: template_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  # * localization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  # * state management
+  equatable: ^2.0.5
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+  # * api
+  dio: ^5.7.0
+  # * internet checker
+  connectivity_plus:
+  # * native splash
+  flutter_native_splash: ^2.4.1
+  # * shimmer loading item home
+  shimmer: ^3.0.0
+  # * cached network images
+  cached_network_image: ^3.2.3
+  # * local storg
+  shared_preferences: ^2.0.6
+  # * pages view
+  carousel_slider: ^5.0.0
+  # * read more
+  readmore: ^3.0.0
+  # * app icon
+  flutter_launcher_icons: ^0.13.1
+
+  flutter:
+    sdk: flutter
+    
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  # * images 
+  assets:
+    - assets/images/
+  # * fonts 
+  fonts:
+    - family: laoMn
+      fonts:
+        - asset: assets/font/Lao-MN.ttc
+    - family: Cairo-Medium
+      fonts:
+        - asset: assets/font/Cairo-Medium.ttf
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/luncher_icon.png"
+ 
+ 
+

@@ -1,0 +1,56 @@
+{
+    "connectionError": "خطأ بالاتصال ",
+    "noChoses": "لا يوجد خيارات",
+    "more":"المزيد",
+    "jobId":"رقم الوظيفة : {id}",
+    "@jobId": {
+        "description": "A message with a single parameter",
+        "placeholders": {
+            "id": {
+                "type": "String",
+                "example": "Bob"
+            }
+        }
+    },
+    "company":"الشركة : {id}",
+    "@company": {
+        "description": "A message with a single parameter",
+        "placeholders": {
+            "id": {
+                "type": "String",
+                "example": "Bob"
+            }
+        }
+    },
+    "salary":"الراتب : {id}",
+    "@salary": {
+        "description": "A message with a single parameter",
+        "placeholders": {
+            "id": {
+                "type": "String",
+                "example": "Bob"
+            }
+        }
+    },
+    "location":"الموقع : {id}",
+    "@location": {
+        "description": "A message with a single parameter",
+        "placeholders": {
+            "id": {
+                "type": "String",
+                "example": "Bob"
+            }
+        }
+    },
+    "description":"الوصف",
+    "longDescription":"الوصف المفصل",
+     "showMore":"المزيد",
+    "showLess":"أقل"
+
+
+
+   
+
+
+
+}
